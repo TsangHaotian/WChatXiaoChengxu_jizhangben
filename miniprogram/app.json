@@ -1,0 +1,14 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/addBook/addBook"
+  ],
+  "window": {
+    "backgroundColor": "#050816",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#050816",
+    "navigationBarTitleText": "记账本",
+    "navigationBarTextStyle": "white"
+  },
+  "sitemapLocation": "sitemap.json"
+}
