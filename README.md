@@ -1,4 +1,4 @@
-<img width="468" height="971" alt="屏幕截图 2025-12-22 222536" src="https://github.com/user-attachments/assets/7d4e0f55-41e5-45e8-a481-561f0a109da4" /># WChatXiaoChengxu_jizhangben
+# WChatXiaoChengxu_jizhangben
 微信小程序开发记账本
 
 # 微信小程序 - 智能记账本
