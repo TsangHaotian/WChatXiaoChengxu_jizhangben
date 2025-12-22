@@ -1,10 +1,19 @@
-# WChatXiaoChengxu_jizhangben
+<img width="468" height="971" alt="屏幕截图 2025-12-22 222536" src="https://github.com/user-attachments/assets/7d4e0f55-41e5-45e8-a481-561f0a109da4" /># WChatXiaoChengxu_jizhangben
 微信小程序开发记账本
 
 # 微信小程序 - 智能记账本
 
 ## 项目简介
 "智能记账本"是一款功能全面的个人财务管理微信小程序，帮助用户轻松记录日常收支、分析消费习惯、管理预算。通过直观的界面和强大的功能，让个人财务管理变得简单高效。
+
+### 运行界面
+
+<img width="468" height="971" alt="屏幕截图 2025-12-22 222536" src="https://github.com/user-attachments/assets/22658419-904c-48d8-837e-5aa8bde694d0" />
+<img width="476" height="995" alt="屏幕截图 2025-12-22 222543" src="https://github.com/user-attachments/assets/48711454-e7a5-47f4-a2bc-1de85e0008aa" />
+<img width="487" height="992" alt="屏幕截图 2025-12-22 222550" src="https://github.com/user-attachments/assets/dc2d5781-a0b8-49e7-8299-3f12d23c5cee" />
+<img width="465" height="988" alt="屏幕截图 2025-12-22 222606" src="https://github.com/user-attachments/assets/6d78f3e4-d793-4ccf-b9cd-1bb28b348197" />
+
+
 
 ## 核心功能
 
@@ -102,31 +111,3 @@ miniprogram/
 - 支持按月筛选账单
 - 数据自动保存到本地
 
-## 更新日志
-
-### v1.0.0
-- 基础记账功能实现
-- 支持收入支出记录
-- 分类管理功能
-- 本地数据存储
-
-## 贡献指南
-欢迎提交 Issue 和 Pull Request
-
-1. Fork 本仓库
-2. 创建您的特性分支 (`git checkout -b feature/AmazingFeature`)
-3. 提交您的更改 (`git commit -m 'Add some AmazingFeature'`)
-4. 推送到分支 (`git push origin feature/AmazingFeature`)
-5. 打开 Pull Request
-
-## 许可证
-本项目采用 MIT 许可证 - 详情请参阅 [LICENSE](LICENSE) 文件
-
-## 作者
-
-**TsangHaotian** - [GitHub](https://github.com/TsangHaotian)
-
-## 致谢
-- 感谢微信小程序平台
-- 感谢所有贡献者
-- 特别感谢用户反馈与建议
