@@ -8,10 +8,10 @@
 
 ### 运行界面
 
-<img width="468" height="971" alt="屏幕截图 2025-12-22 222536" src="https://github.com/user-attachments/assets/22658419-904c-48d8-837e-5aa8bde694d0" />
-<img width="476" height="995" alt="屏幕截图 2025-12-22 222543" src="https://github.com/user-attachments/assets/48711454-e7a5-47f4-a2bc-1de85e0008aa" />
-<img width="487" height="992" alt="屏幕截图 2025-12-22 222550" src="https://github.com/user-attachments/assets/dc2d5781-a0b8-49e7-8299-3f12d23c5cee" />
-<img width="465" height="988" alt="屏幕截图 2025-12-22 222606" src="https://github.com/user-attachments/assets/6d78f3e4-d793-4ccf-b9cd-1bb28b348197" />
+<img width="450" height="950" alt="屏幕截图 2025-12-22 222536" src="https://github.com/user-attachments/assets/22658419-904c-48d8-837e-5aa8bde694d0" />
+<img width="450" height="950" alt="屏幕截图 2025-12-22 222543" src="https://github.com/user-attachments/assets/48711454-e7a5-47f4-a2bc-1de85e0008aa" />
+<img width="450" height="950" alt="屏幕截图 2025-12-22 222550" src="https://github.com/user-attachments/assets/dc2d5781-a0b8-49e7-8299-3f12d23c5cee" />
+<img width="450" height="950" alt="屏幕截图 2025-12-22 222606" src="https://github.com/user-attachments/assets/6d78f3e4-d793-4ccf-b9cd-1bb28b348197" />
 
 
 
