@@ -1,12 +1,8 @@
-# WChatXiaoChengxu_jizhangben
-微信小程序开发记账本
+# WChatXiaoChengxu_jizhangben: Smart Expense Tracker Mini Program
 
-# 微信小程序 - 智能记账本
+A comprehensive personal finance management WeChat Mini Program designed to help users effortlessly record daily income and expenses, analyze spending habits, and manage budgets. With an intuitive interface and powerful features, it makes personal financial management simple and efficient.
 
-## 项目简介
-"智能记账本"是一款功能全面的个人财务管理微信小程序，帮助用户轻松记录日常收支、分析消费习惯、管理预算。通过直观的界面和强大的功能，让个人财务管理变得简单高效。
-
-### 运行界面
+## 📱 Screenshots
 
 <img width="450" height="950" alt="屏幕截图 2025-12-22 222536" src="https://github.com/user-attachments/assets/22658419-904c-48d8-837e-5aa8bde694d0" />
 <img width="450" height="950" alt="屏幕截图 2025-12-22 222543" src="https://github.com/user-attachments/assets/48711454-e7a5-47f4-a2bc-1de85e0008aa" />
@@ -14,100 +10,98 @@
 <img width="450" height="950" alt="屏幕截图 2025-12-22 222606" src="https://github.com/user-attachments/assets/6d78f3e4-d793-4ccf-b9cd-1bb28b348197" />
 
 
+## ✨ Core Features
 
-## 核心功能
+### 💰 Income & Expense Management
+- Record daily income and expenses with ease.
+- Support for multiple spending categories (Dining, Transportation, Entertainment, etc.).
+- Customizable category icons and names.
+- Quick deletion by long-pressing a transaction.
 
-### 收支管理
-- 记录每日收入与支出
-- 支持多种消费分类（餐饮、交通、娱乐等）
-- 自定义分类图标和名称
-- 长按账单可快速删除
+### 📅 Time Management
+- View bills organized by month.
+- Detailed daily expense breakdowns.
+- Fast switching between different months.
 
-### 时间管理
-- 按月份查看账单
-- 每日消费明细展示
-- 支持快速切换不同月份数据
+### 📊 Data Analytics
+- Total income and expense statistics.
+- Spending distribution analysis by category.
+- Monthly spending trend charts.
+- Budget management tools.
 
-### 数据统计
-- 收入支出总额统计
-- 消费分类占比分析
-- 月度消费趋势图
-- 预算管理功能
+### 🔄 Data Synchronization
+- Local data storage for privacy.
+- Support for data backup and restoration.
+- Multi-device synchronization (requires user login).
 
-### 数据同步
-- 本地存储数据
-- 支持数据备份与恢复
-- 多设备数据同步（需登录）
+## 🛠 Technical Implementation
 
-## 技术实现
+### Tech Stack
+- **Frontend Framework:** Native WeChat Mini Program Development.
+- **State Management:** Global Mini Program Data Management.
+- **UI Components:** Custom components + Native WeChat components.
+- **Storage:** WeChat Local Storage + Cloud Development.
 
-### 技术栈
-- 前端框架：微信小程序原生开发
-- 状态管理：小程序全局数据管理
-- UI组件：自定义组件 + 微信原生组件
-- 存储：微信本地存储 + 云开发
-
-### 项目结构
-```
+### Project Structure
+```text
 miniprogram/
-├── app.js              # 小程序逻辑
-├── app.json            # 小程序公共配置
-├── app.wxss            # 小程序公共样式表
-├── pages/              # 页面目录
-│   ├── index/          # 首页 - 账单列表
-│   ├── addBook/        # 添加/编辑账单
-│   ├── chart/          # 图表统计
-│   └── my/             # 个人中心
-├── components/         # 公共组件
-├── assets/             # 静态资源
-│   ├── icons/          # 图标资源
-│   └── images/         # 图片资源
-└── utils/              # 工具函数
-    ├── api.js          # 接口请求
-    ├── util.js         # 工具方法
-    └── config.js       # 配置文件
+├── app.js              # Main application logic
+├── app.json            # Global configuration
+├── app.wxss            # Global styles
+├── pages/              # Page directories
+│   ├── index/          # Home page - Bill list
+│   ├── addBook/        # Add/Edit bill
+│   ├── chart/          # Charts & Statistics
+│   └── my/             # User Profile
+├── components/         # Reusable components
+├── assets/             # Static resources
+│   ├── icons/          # Icon assets
+│   └── images/         # Image assets
+└── utils/              # Utility functions
+    ├── api.js          # API request handlers
+    ├── util.js         # Helper methods
+    └── config.js       # Configuration settings
 ```
 
-## 快速开始
+## 🚀 Quick Start
 
-### 环境要求
-- 微信开发者工具
-- 微信小程序账号（AppID）
-- Node.js (可选，用于开发构建)
+### Prerequisites
+- WeChat Developer Tools
+- WeChat Mini Program Account (AppID)
+- Node.js (Optional, for build tools)
 
-### 开发步骤
-1. 克隆项目到本地
+### Development Steps
+1. **Clone the repository**
    ```bash
-   git clone [你的仓库地址]
+   git clone [Your Repository URL]
    ```
 
-2. 使用微信开发者工具导入项目
-   - 打开微信开发者工具
-   - 选择"导入项目"
-   - 选择项目目录
-   - 输入AppID（或使用测试号）
+2. **Import into WeChat Developer Tools**
+   - Open WeChat Developer Tools.
+   - Select **"Import Project"**.
+   - Choose the project directory.
+   - Enter your AppID (or use a Test Account).
 
-3. 运行项目
-   - 点击"编译"按钮
-   - 使用手机微信扫描预览
+3. **Run the Project**
+   - Click the **"Compile"** button.
+   - Scan the QR code with WeChat on your mobile device to preview.
 
-## 使用指南
+## 📖 Usage Guide
 
-### 添加账单
-1. 点击底部"+"按钮
-2. 选择收入/支出类型
-3. 填写金额和备注
-4. 选择分类和日期
-5. 点击保存完成记录
+### Adding a Transaction
+1. Tap the **"+"** button at the bottom navigation bar.
+2. Select the type: **Income** or **Expense**.
+3. Enter the amount and remarks.
+4. Choose the category and date.
+5. Tap **Save** to record.
 
-### 查看统计
-1. 进入"图表"页面
-2. 查看月度收支统计
-3. 分析消费分类占比
-4. 查看消费趋势分析
+### Viewing Statistics
+1. Navigate to the **"Charts"** page.
+2. View monthly income and expense summaries.
+3. Analyze spending distribution by category.
+4. Review spending trend analysis.
 
-### 数据管理
-- 长按账单可删除记录
-- 支持按月筛选账单
-- 数据自动保存到本地
-
+### Data Management
+- **Delete Records:** Long-press any bill to delete it.
+- **Filter:** Filter bills by month.
+- **Auto-Save:** Data is automatically saved locally.
